@@ -1,0 +1,112 @@
+<!-- template.html -->
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <style>
+      body {
+        font-family: Arial, sans-serif;
+        color: #333;
+        background-color: #f4f6f8;
+        padding: 20px;
+        line-height: 1.6;
+      }
+
+      .email-container {
+        max-width: 650px;
+        margin: auto;
+        background: #ffffff;
+        padding: 30px;
+        border-radius: 10px;
+        box-shadow: 0 4px 12px rgba(0, 0, 0, 0.08);
+      }
+
+      .header {
+        border-bottom: 2px solid #0073e6;
+        padding-bottom: 10px;
+        margin-bottom: 20px;
+      }
+
+      .header h2 {
+        margin: 0;
+        color: #0073e6;
+        font-size: 22px;
+      }
+
+      .highlight {
+        background-color: #eaf4ff;
+        padding: 8px 12px;
+        border-left: 4px solid #0073e6;
+        margin: 15px 0;
+        border-radius: 5px;
+      }
+
+      ul {
+        margin: 0;
+        padding-left: 18px;
+      }
+
+      .signature {
+        margin-top: 30px;
+        font-style: italic;
+        color: #444;
+      }
+
+      a {
+        color: #0073e6;
+        text-decoration: none;
+      }
+
+      a:hover {
+        text-decoration: underline;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="email-container">
+      <div class="header">
+        <h2>Application for QA Engineer Role</h2>
+      </div>
+
+      <p>Hi {{ name }},</p>
+
+      <p>
+        I am excited to apply for the <strong>QA Engineer</strong> role at
+        <strong>{{ company_name }}</strong>. With 4+ years of proven experience
+        in <strong>manual & automated testing</strong>, I specialize in building
+        scalable QA frameworks, ensuring seamless product quality, and driving
+        efficient release cycles in Agile environments.
+      </p>
+
+      <div class="highlight">
+        <strong>Key Highlights of My Experience:</strong>
+        <ul>
+          <li>Led a QA team of 6 engineers at <strong>VoiceOC</strong>, streamlining workflows with JIRA & Kanban.</li>
+          <li>Built automation frameworks from scratch using <strong>Selenium, TestNG, Cucumber</strong>.</li>
+          <li>Implemented CI/CD pipelines with <strong>Jenkins + Git</strong>, improving release efficiency.</li>
+          <li>Performed <strong>API testing</strong> using Postman & RestAssured, and <strong>load/performance testing</strong> with JMeter.</li>
+          <li>Tested across <strong>Web, Mobile (Android/iOS), and CRM platforms</strong>.</li>
+        </ul>
+      </div>
+
+      <p>
+        I am confident that my blend of <strong>technical expertise</strong> and
+        <strong>team leadership</strong> can add value to {{ company_name }}’s QA
+        efforts. I would be delighted to discuss how my skills align with your
+        team’s goals.
+      </p>
+
+      <p>Please find my resume attached for review. I look forward to connecting.</p>
+
+      <div class="signature">
+        Regards,<br />
+        Priyanshu Srivastava<br />
+        Senior QA Engineer<br />
+        <a href="tel:+917390801090">+91-7390801090</a> | 
+        <a href="mailto:sreevstvpri@gmail.com">sreevstvpri@gmail.com</a><br />
+        <a href="https://www.linkedin.com/in/priyanshu-sree/">LinkedIn</a> | 
+        <a href="https://leetcode.com/u/nitinsree/">LeetCode</a>
+      </div>
+    </div>
+  </body>
+</html>
